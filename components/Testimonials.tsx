@@ -38,7 +38,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, name, company 
             "{quote}"
         </blockquote>
         <p className="font-bold text-gray-800">{name}</p>
-        <p className="text-sm text-primary-blue">{company}</p>
+        <p className="text-sm text-blue-600">{company}</p>
     </motion.div>
 );
 
